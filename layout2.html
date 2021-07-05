@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      background-color: black;
+    }
+    .container {
+      background-color: white;
+      height: 700px;
+      width: 80%;
+      margin: auto;
+    }
+    .container > div {
+      height: 38%;
+      width: 90%;
+      margin: auto;
+
+      text-align: center;
+    }
+    .parent2 {
+      height: 60% !important;
+      margin: auto 5px;
+    }
+    .t0 {
+      height: 48%;
+      width: 96%;
+      margin: auto;
+    }
+    .c1 {
+      height: 90%;
+      width: 30%;
+
+      margin: 1% 1.5%;
+      float: left;
+      background-color: rgb(206, 206, 0);
+      border-radius: 5px;
+    }
+    .c1 > .t1,
+    .t2 {
+      height: 90%;
+      width: 35%;
+      margin: 1% 1.5%;
+
+      float: left;
+    }
+    .t2 {
+      width: 54%;
+      font-size: 16px;
+      font-family: Roboto;
+      color: white;
+    }
+    .t1 {
+      border-radius: 50%;
+      background-color: white;
+    }
+    div > span {
+      font-size: 20px;
+      margin: 2% 1%;
+    }
+    .t0 > h1 {
+      color: blue;
+      font-size: 40px;
+    }
+    #id1 {
+      background-color: blue;
+      color: white;
+    }
+    .grid_template {
+      display: grid;
+      height: 98%;
+      width: 98%;
+      grid-template-columns: 32% 32% 32%;
+      grid-template-rows: 45% 53%;
+
+      margin: auto;
+      column-gap: 1%;
+      row-gap: 1%;
+      text-align: left;
+    }
+
+    .imgs {
+      width: 100%;
+      height: 96%;
+      margin: 0px;
+      border-radius: 5px;
+    }
+    p {
+      padding: 5px;
+    }
+    button {
+      height: 15%;
+      width: 50%;
+      border: 1px solid rgb(0, 155, 216);
+      color: rgb(0, 155, 216);
+      margin-left: 24%;
+    }
+    .grid_template ~ h2 {
+      margin: 2px auto;
+    }
+    #s1,
+    #s2,
+    #s3 {
+      margin-top: -5px;
+    }
+    .bl {
+      background-color: blue;
+    }
+    .skbl {
+      background-color: rgb(66, 170, 255);
+    }
+    .p1 {
+      color: gray;
+    }
+    .t1 > img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="parent1">
+        <div class="t0">
+          <div class="c1">
+            <div class="t1">
+              <img
+                src="https://thumbs.dreamstime.com/b/degree-cap-5454225.jpg"
+              />
+            </div>
+            <div class="t2">
+              <h2>Scholarship</h2>
+              <span> Available</span>
+            </div>
+          </div>
+          <div class="c1 bl">
+            <div class="t1">
+              <img
+                src="https://media.istockphoto.com/vectors/exclamation-mark-sign-warning-about-an-emergency-vector-id1131163852?k=6&m=1131163852&s=612x612&w=0&h=CCsf5Md7UZ1sAw1HIobIN3Rsl_kQCJSWxhgJ25lV83k="
+              />
+            </div>
+            <div class="t2">
+              <h2>Scholarship</h2>
+              <span> Available</span>
+            </div>
+          </div>
+          <div class="c1 skbl">
+            <div class="t1">
+              <img
+                src="https://cdn.dribbble.com/users/227263/screenshots/4182498/book_reading_girl-01.png"
+              />
+            </div>
+            <div class="t2">
+              <h2>Scholarship</h2>
+              <span> Available</span>
+            </div>
+          </div>
+        </div>
+        <div class="t0">
+          <h1>Popular Program</h1>
+          <div>
+            <span id="id1"> Graduate</span>
+            <span>Postgraduate</span>
+            <span>PHD Scholarships</span>
+            <span>Traning</span>
+          </div>
+        </div>
+      </div>
+      <div class="parent2">
+        <div class="grid_template">
+          <div>
+            <img
+              class="imgs"
+              src="https://media.istockphoto.com/photos/bright-and-ultra-modern-high-tech-laboratory-full-of-advanced-picture-id949946968?k=6&m=949946968&s=612x612&w=0&h=YR9WCbbYqnWFouWTzgh07WUPW1diTDRbpqG32jRLgOg="
+            />
+          </div>
+          <div>
+            <img
+              class="imgs"
+              src="https://media.istockphoto.com/photos/engineer-showing-apprentice-how-to-use-drill-in-factory-picture-id506762561?k=6&m=506762561&s=612x612&w=0&h=cQqHbEaElMnmX8kBZ7MLJ62Iv6l0ijhjlrKipBC_cck="
+            />
+          </div>
+          <div>
+            <img
+              class="imgs"
+              src="http://www.pfizer.co.uk/sites/g/files/g10041376/f/201711/Community-lab-open-graph.jpg"
+            />
+          </div>
+          <div>
+            <p id="s1">Agriculture</p>
+            <h2>Chemical engneering</h2>
+            <p class="p1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor indididunt ut
+            </p>
+            <button>Apply Now</button>
+          </div>
+          <div>
+            <p id="s1">Agriculture</p>
+            <h2>Mechanical engneering</h2>
+            <p class="p1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor indididunt ut
+            </p>
+            <button>Apply Now</button>
+          </div>
+          <div>
+            <p id="s1">Agriculture</p>
+            <h2>Bio engneering</h2>
+            <p class="p1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor indididunt ut
+            </p>
+            <button>Apply Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
